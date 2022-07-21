@@ -13,6 +13,6 @@ btn.addEventListener('click',function(){
             color.textContent=hexColor;
             document.body.style.backgroundColor=hexColor;
 })
-//Arrow Function to generate random numbers
+
 
 const  getRandomNumbers =()=> Math.floor(Math.random()*hex.length)
